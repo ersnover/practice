@@ -1,0 +1,10 @@
+@import 'banner';       //imports _banner.scss partial style (use for modular 
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
+  
+  div {
+      color: $primary-color;
+  }

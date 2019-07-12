@@ -1,0 +1,31 @@
+@import 'mobile', 'desktop';
+
+
+.navbar {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    grid-area: top / 1 / navbar-bottom / 2;
+
+    .menu-link {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.img-box {
+    display: flex;
+    grid-area: navbar-bottom / 1 / end / 2;
+    align-content: center;
+
+    .img-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .img-text {
+            font-weight: bold;
+        }
+    }
+}

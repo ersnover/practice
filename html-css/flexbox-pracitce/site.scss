@@ -1,0 +1,13 @@
+//sass input.scss output.css  //command - look at input.css and output to output.css :: write in command line -- need to run everytime to update css file
+
+$font-stack:    Helvetica, sans-serif;  //variable inits - save Helvetica to font-stack
+$primary-color: #333333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+div {
+    color: $primary-color;
+}

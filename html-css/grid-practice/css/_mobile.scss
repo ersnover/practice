@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+
+    .page-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: [top] 100px [navbar-bottom] auto [end];
+    }
+    
+    .navbar {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-box {
+        flex-direction: column;
+    
+        .img-group img {
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+    }
+    
+    }
