@@ -1,0 +1,30 @@
+@import 'mobile','desktop';
+
+body {
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-weight: 100;
+}
+
+a {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #333333!important;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        height: 50px;
+    }
+}
+
+#navbarSupportedContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
