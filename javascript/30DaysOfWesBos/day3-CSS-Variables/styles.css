@@ -1,0 +1,27 @@
+:root {
+    --color: #4cd137;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+.hl {
+    color: var(--color);
+}
+
+.sliderBar {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+img {
+    filter: blur(var(--blur));
+    background-color: var(--color);
+    padding: var(--spacing);
+    width: 400px;
+}
+
+body {
+    background: #193549;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
